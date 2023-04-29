@@ -1,0 +1,316 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Sacramento&family=Work+Sans&display=swap");
+
+/* Home */
+#home {
+  min-height: 100vh;
+  background-color: #eeeff1;
+}
+
+.elips {
+  text-align: center;
+  width: 56px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+  /* padding: 5px; */
+  background: #ffffff;
+  box-shadow: 0px 30px 60px rgba(163, 168, 179, 0.15);
+}
+#home h1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 124px;
+  line-height: 140px;
+}
+@media (max-width: 768px) {
+  #home h1 {
+    font-size: 50px;
+    font-family: "Jost";
+    font-style: normal;
+    line-height: 70px;
+  }
+  #home .download {
+    text-align: center;
+  }
+}
+
+#home p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #64646a;
+}
+
+#home button {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* Cafe menu */
+#cafeMenu {
+  min-height: 100vh;
+  background-image: url(image/24\ 1.png);
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+}
+
+#cafeMenu h1 {
+  padding-top: 50px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 70px;
+
+  color: #1b1b1d;
+}
+
+#cafeMenu .header p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #64646a;
+}
+
+#cafeMenu .card {
+  background: white;
+  border-radius: 10px;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: inset 0 -3em 3em rgba(220, 0, 0, 0), 0 0 0 2px rgba(190, 190, 190, 0), 0.3em 0.3em 1em rgba(0, 0, 0, 0.071);
+}
+
+#cafeMenu h4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 52px;
+  /* identical to box height */
+
+  color: #1b1b1d;
+}
+
+#cafeMenu p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 35px;
+
+  color: #64646a;
+}
+
+#cafeMenu button {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* Order */
+#order {
+  max-height: 100vh;
+  background-color: #eeeff1;
+}
+
+#order h1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 70px;
+  /* or 109% */
+
+  color: #1b1b1d;
+}
+
+#order p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #64646a;
+}
+
+/* selling */
+#selling {
+  min-height: 100vh;
+  background-image: url(image/24\(1\).png);
+  background-repeat: no-repeat;
+  justify-items: end;
+  background-position: right;
+}
+#selling h1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 70px;
+  /* or 109% */
+
+  color: #1b1b1d;
+}
+
+#selling p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #64646a;
+}
+
+#selling h5 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  /* or 110% */
+
+  color: #1b1b1d;
+}
+
+/* card tumpukan */
+#selling .box {
+  position: relative;
+  color: #ffffff;
+  /* text-align: center; */
+  line-height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#selling .boxx {
+  position: relative;
+  color: #ffffff;
+  /* text-align: center; */
+  line-height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#selling .box2 {
+  top: 50px;
+  /* left: 100px; */
+  z-index: 2;
+}
+
+#selling .box3 {
+  bottom: 150px;
+  /* left: 150px; */
+  z-index: 1;
+}
+
+/* instanCoffe */
+#instantCoffe {
+  min-height: 100vh;
+  background-color: #eeeff1;
+  background-image: url(image/26.png);
+  background-repeat: no-repeat;
+}
+#instantCoffe h1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 70px;
+  /* or 109% */
+
+  color: #1b1b1d;
+}
+
+#instantCoffe p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #64646a;
+}
+
+#instantCoffe .boxx {
+  position: relative;
+  height: 1px;
+  left: 60px;
+}
+
+#instantCoffe .gambar1{
+  margin-left: 90px;
+}
+
+@media (max-width: 768px) {
+  #instantCoffe .boxx {
+    position: relative;
+    height: 1px;
+    left: 0px;
+  }
+  .download{
+    text-align: center;
+  }
+}
+
+/* costumers */
+#costumers{
+  min-height: 100vh;
+  background-image: url(image/27.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  /* background-color: #64646a; */
+}
+
+#costumers h1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 70px;
+  /* or 109% */
+
+  color: #1b1b1d;
+}
+
+#costumers p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #64646a;
+}
+
+#contact {
+  min-height: 50vh;
+  background-color: #eeeff1;
+}
+
+footer{
+  background-color: #eeeff1;
+}
